@@ -23,6 +23,8 @@
     "test:cov": "cross-env NODE_ENV=development jest --coverage"
   },
   "dependencies": {
+    "@google-cloud/pubsub": "5.2.0",
+    "node-fetch": "2.7.0",
     "@nestjs/axios": "^3.0.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.3.0",
